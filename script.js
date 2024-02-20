@@ -25,7 +25,7 @@ const displayAverageSalary = function (inputs) {
   const average = sum / inputs.length;
 
   console.log(
-    `The average salary of our ${inputs.length} employees is ${average}`
+    `The average salary of our ${inputs.length} employees is $${average}`
   );
 
 };
