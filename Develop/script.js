@@ -9,20 +9,26 @@ const collectEmployees = function() {
   
   const firstName = window.prompt(`Please enter your first name`); // Prompt for first name
   const lastName = window.prompt(`Please enter your last name`); // Prompt for last name
-  const salary = window.prompt(`Please enter your Salary`); // Prompt for salary
+  const salary = parseInt(window.prompt(`Please enter your Salary`)); // Prompt for salary
   inputs.push({firstName, lastName, salary})
 
   more = window.confirm(`Would you like to add another employee?`)
 }
 return inputs;
 }  
-  
-  // TODO: Get user input to create and return an array of employee objects
+// TODO: Get user input to create and return an array of employee objects
 
 
 // Display the average salary
-const displayAverageSalary = function(employeesArray) {
+const displayAverageSalary = function(inputs) {
+  let sum = 0;
+  for(let i = 0; i < inputs.length; i++) {
+    sum += inputs[i].salary;
+  console.log(sum);
+  }
+  const average = sum / inputs.length;
   
+  console.log(average)
 
   // TODO: Calculate and display the average salary
 }
