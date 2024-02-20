@@ -2,7 +2,7 @@
 
 ## Description
 https://github.com/KylerG12/Payroll-Data-Form
-![Screenshot](./assets/Screenshot.PNG "Screenshot of the website")
+![Screenshot](./Assets/Screenshot.PNG "Screenshot of the website")
 
 This app demonstrates a way to log and display employee names, salary, and total average salary.
 
